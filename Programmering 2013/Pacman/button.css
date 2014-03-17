@@ -1,0 +1,37 @@
+body
+{
+background-color:rgb(0,0,0);
+}
+
+#BlackWhite{
+			background:black;
+			width: 18%;
+			color:white;
+			}
+
+.knapp{
+			background:#165382;
+			color:black;
+			font-size:35px;
+}
+
+
+.hej{
+			background:#165382;
+			color:black;
+			font-size:35px;
+}
+
+#figur{
+			background:white;
+			position: absolute;
+			left:300px;
+			top:310px;
+}
+
+#bakgrund{
+			background:white;
+			position: absolute;
+			left:300px;
+			top:0px;
+}

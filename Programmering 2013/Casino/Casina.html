@@ -1,0 +1,55 @@
+<html>
+<head>
+<link rel="StyleSheet" type="text/css" href="casino.css">
+<script type="text/javascript" src="casino.js"></script>
+<title>Casino Slot</title>
+
+</head>
+<body>
+<audio id="pullsound" src="SFX/Pull Effect.mp3" ></audio>
+<audio id="rollsound" src="SFX/rolling.mp3" ></audio>
+<audio id="Betsound" src="SFX/Bet.mp3" ></audio>
+<audio id="winsound" src="SFX/Wins.mp3" ></audio>
+<img align="right" id="Tablebyt" src="gfx/Tables/Table1.png" width="360" height="689"></img>
+<center>
+<font size="50" color="red"><div id="greyRed">Casino Slot Game</div></font>
+<br>
+<br>
+<table border="10">
+<tr>
+<th><font size="50"><div id="rutafarg">...Slot 1...</div></font></th>
+<th><font size="50"><div id="rutafarg">...Slot 2...</div></font></th>
+<th><font size="50"><div id="rutafarg">...Slot 3...</div></font></th>
+</tr>
+<tr>
+<td><center><font size="50" color="red"><img src="gfx/slots/All-Star.png" id="bildbyt1" height="200" width="120"></img></font></center></td>
+<td><center><font size="50" color="red"><img src="gfx/slots/All-Star.png" id="bildbyt2" height="200" width="120"></img></font></center></td>
+<td><center><font size="50" color="red"><img src="gfx/slots/All-Star.png" id="bildbyt3" height="200" width="120"></img></font></center></td>
+</tr>
+<tr>
+<td><div id="rutafarg2">Winner</div></td>
+<td><div id="rutafarg2">Paid</div></td>
+<td><div id="rutafarg2"><p id="winsvalue">0</p></div></td>
+</tr>
+<tr>
+<td><div id="rutafarg2"></div></td>
+<td><center><input type="button" value="Bet" class="knapp2" onclick=morebet();></input></center></td>
+<td><div id="rutafarg2"><p id="varbet">1</p></div></td>
+</tr>
+<tr>
+<td><center><input type="button" value="Spin Wheel" class="knapp" onclick=spin();></input></center></td>
+<td><div id="rutafarg2">Credits</div></td>
+<td><div id="rutafarg2"><p id="varmoney">100</p></div></td>
+</tr>
+</table>
+
+</center>
+<br></br>
+
+<font color="red" ><p id="varruta1">0</p></font>
+<font color="red"><p id="varruta2">0</p></font>
+<font color="red"><p id="varruta3">0</p></font>
+</body>
+
+
+</html>

@@ -1,0 +1,23 @@
+body
+{
+background-image:url('gfx/Background.jpg');
+background-color:rgb(0,0,0);
+}
+
+#BlackWhite{
+			background:black;
+			width: 18%;
+			color:white;
+			}
+			
+#WhitePurple{
+			background:white;
+			width: 10%;
+			color:Purple;
+			}
+			
+#BlackRed{
+			background:black;
+			width: 32%;
+			color:red;
+			}
